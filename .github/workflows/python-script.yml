@@ -19,7 +19,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v3
       with:
-        python-version: '3.9' # 根据需要调整 Python 版本
+        python-version: '3.12.4' # 根据需要调整 Python 版本
 
     # 安装依赖
     - name: Install dependencies
