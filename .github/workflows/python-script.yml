@@ -24,4 +24,4 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run Python script
-        run: python 云盘云朵6.0.py
+        run: python 云盘云朵5.0.1.py
