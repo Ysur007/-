@@ -35,5 +35,5 @@ jobs:
     - name: Run Yunpan Script
       run: | # 使用 Shell 脚本运行以下命令
         python 云盘云朵5.0.1.py # 执行上传的 Python 脚本
-      env:
-        ydypCk: ${{ secrets.YDYPCk }} # 将 GitHub Secrets 中配置的环境变量 YDYPCk 传递到脚本中
+     # env:
+       # ydypCk: ${{ secrets.YDYPCk }} # 将 GitHub Secrets 中配置的环境变量 YDYPCk 传递到脚本中
